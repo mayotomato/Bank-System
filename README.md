@@ -46,6 +46,30 @@ Rudimentary bank system implemented in Python to practice programming concepts. 
 
 2. **Run in any Python-supported IDE by loading bank_system.py**
 
+### Instructions
+
+- **Superuser login**:
+   Username: superuser
+   Password: 123
+- **Default Admin login**
+   Username: admin
+   Password: 123
+- **Default User**
+   Username: customer
+   Password: 123
+- **Creating Customer**
+   - Apply for registration
+   - Enter valid details
+   - Approve customer application through admin/superuser under "Open Customer Account" (Possible to reject)
+   - Default first time password generated in next line.
+   - Copy default first time password.
+   - Login to customer with password.
+   - Set a password as it is first time logging in.
+- **Creating Admin**
+   - Login to superuser
+   - Go to "Add/remove admins"
+   - "Create new admin"
+   - Enter details
 ---
 
 ## Disclaimer
