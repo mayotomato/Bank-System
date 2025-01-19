@@ -4,12 +4,12 @@ Rudimentary bank system implemented in Python to practice programming concepts. 
 
 ## Features
 
-- **Different User Types**: Superuser, Admins, and Users. Superuser hardcoded.
-- **Account Management**: Superuser can manage Admins. Superuser and Admins can manage Users.
-- **Account Applications**: Admins can review and approve/reject User account applications.
+- **Different User Types**: Superuser, Admins, and Customers. Superuser hardcoded.
+- **Account Management**: Superuser can manage Admins. Superuser and Admins can manage Customers.
+- **Account Applications**: Admins can review and approve/reject Customer account applications.
 - **Transactions**: Deposits, withdrawals, generating account statements.
 - **Login System**: Basic username-password authentication system.
-- **Data Persistence**: Admin and User details stored in text files.
+- **Data Persistence**: Admin and Customer details stored in text files.
 
 ## Getting Started
 
@@ -49,14 +49,14 @@ Rudimentary bank system implemented in Python to practice programming concepts. 
 ### Instructions
 
 - **Superuser login**:
-   Username: superuser
-   Password: 123
+   - Username: superuser
+   - Password: 123
 - **Default Admin login**
-   Username: admin
-   Password: 123
-- **Default User**
-   Username: customer
-   Password: 123
+   - Username: admin
+   - Password: 123
+- **Default Customer**
+   - Username: customer
+   - Password: 123
 - **Creating Customer**
    - Apply for registration
    - Enter valid details
