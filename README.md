@@ -1,34 +1,33 @@
-
 # Bank System
 
-A rudimentary bank system implemented in Python to practice programming concepts. Text-based user interface and basic banking functionalities, designed to run in the terminal.
+Rudimentary bank system implemented in Python to practice programming concepts. Text-based user interface and basic banking functionalities, designed to run in terminal.
 
 ## Features
 
-- **Different User Types**: Superuser, Admins, and Users.
-- **Account Management**: Manage accounts with Superusers having the ability to create Admins.
+- **Different User Types**: Superuser, Admins, and Users. Superuser hardcoded.
+- **Account Management**: Superuser can manage Admins. Superuser and Admins can manage Users.
 - **Account Applications**: Admins can review and approve/reject User account applications.
-- **Transactions**: Handle deposits, withdrawals, and generate account statements.
-- **Login System**: A basic username-password authentication system.
-- **Data Persistence**: Admin and User details are stored in text files for simplicity.
+- **Transactions**: Deposits, withdrawals, generating account statements.
+- **Login System**: Basic username-password authentication system.
+- **Data Persistence**: Admin and User details stored in text files.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.x installed on your system.
+- Python 3.x
 
 ### Installation
 
-1. **Clone the Repository**:
+1. **Clone Repository**:
    ```bash
    git clone https://github.com/mayotomato/Bank-System.git
    ```
 
 **OR**
 
-1. **Download the ZIP File**:
-      - Click "Download ZIP" under Code button
+1. **Download ZIP File**:
+      - Click "Download ZIP" under the Code button
       - Extract the downloaded file.
 
 2. **Navigate to the project directory**:
@@ -38,17 +37,17 @@ A rudimentary bank system implemented in Python to practice programming concepts
 
 ### Usage
 
-1. **Run the application in terminal**:
+1. **Run in terminal**:
    ```bash
    python bank_system.py
    ```
 
    **OR**
 
-2. **Open the project in any Python-supported IDE, load the bank_system.py file, and run it directly**
+2. **Run in any Python-supported IDE by loading bank_system.py**
 
 ---
 
 ## Disclaimer
 
-This project is intended for learning and experimentation with programming concepts. It is not designed for production use. The login system is not secure, and data handling is limited to basic text file operations for simplicity.
+This project is intended for learning and experimentation with programming concepts. It is not designed for production use. The login system is not secure, and data handling is limited to basic text file operations.
