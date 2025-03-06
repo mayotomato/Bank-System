@@ -1,6 +1,6 @@
 # Bank System
 
-Rudimentary bank system implemented in Python to practice programming concepts. Text-based user interface and basic banking functionalities, designed to run in terminal.
+Rudimentary bank system implemented in Python for APU python module assignment. Text-based user interface and basic banking functionalities, designed to run in terminal.
 
 ## Features
 
@@ -27,13 +27,6 @@ Rudimentary bank system implemented in Python to practice programming concepts. 
 **OR**
 
 1. **Download ZIP File**:
-      - Click "Download ZIP" under the Code button
-      - Extract the downloaded file.
-
-2. **Navigate to the project directory**:
-   ```bash
-   cd Bank-System
-   ```
 
 ### Usage
 
@@ -44,7 +37,7 @@ Rudimentary bank system implemented in Python to practice programming concepts. 
 
    **OR**
 
-2. **Run in any Python-supported IDE by loading bank_system.py**
+2. **Load bank_system.py in any python supported environment**
 
 ### Instructions
 
@@ -72,6 +65,3 @@ Rudimentary bank system implemented in Python to practice programming concepts. 
    - Enter details
 ---
 
-## Disclaimer
-
-This project is intended for learning and experimentation with programming concepts. It is not designed for production use. The login system is not secure, and data handling is limited to basic text file operations.
